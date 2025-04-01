@@ -1,0 +1,72 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #ffffff, #f9f9f9);
+  margin: 0;
+  padding: 0;
+}
+
+h2, h4 {
+  color: #333;
+}
+
+p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+img {
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.02);
+  opacity: 0.95;
+}
+
+ul {
+  list-style: disc inside;
+}
+
+footer {
+  background-color: #f8f8f8;
+  border-top: 2px solid #ddd;
+  padding: 20px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.footer-links a {
+  margin: 0 8px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
